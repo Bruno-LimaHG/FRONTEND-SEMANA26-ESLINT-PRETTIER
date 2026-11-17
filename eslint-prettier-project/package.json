@@ -1,0 +1,26 @@
+{
+  "name": "eslint-prettier-project",
+  "version": "1.0.0",
+  "description": "Projeto de padronização de código com ESLint e Prettier - Front-End 3° B",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [
+    "eslint",
+    "prettier",
+    "frontend",
+    "code-quality"
+  ],
+  "author": "Bruno De Lima - 3° B (Prof. Pedro Yokada)",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5"
+  }
+}
